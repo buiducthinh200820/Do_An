@@ -1,0 +1,137 @@
+.articleDetailContainer {
+}
+.avatar {
+  max-height: 35px;
+  border-radius: 50%;
+}
+.authorName {
+  font-weight: 600;
+  color: #f1f1f1;
+}
+.authorName:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.date {
+  font-size: 0.7rem;
+  color: #bbb;
+  margin-bottom: 0;
+}
+.authorDateName {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9em;
+}
+.authorDateName2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9em;
+  margin-left: 20px;
+}
+.button {
+  width: 170px;
+}
+.authorName2 {
+  color: #5cb85c;
+}
+
+.tagList {
+  display: inline-block;
+}
+.tags {
+  border-radius: 30px 30px 30px 30px;
+  text-decoration: none;
+  border: 1px solid #909090;
+  background-color: #ffffff;
+  color: #909090 !important;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.6rem;
+  list-style: none;
+  white-space: nowrap;
+  margin-right: 4px;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+.spanIcon {
+  margin-bottom: 2px;
+}
+
+.articlDetaileHeader {
+  padding: 1.5rem;
+}
+
+
+.detailArticleContent{
+    padding: 2.5rem;
+}
+.buttonGroupFollow {
+}
+.buttonFollow {
+  width: 170px;
+}
+.buttonFavorited {
+  width: 170px;
+}
+@media (max-width: 480px) {
+  .articleDetailContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .articlDetaileHeader {
+    padding: 1rem;
+  }
+  .button {
+    width: 150px;
+  }
+  .buttonGroupFollow {
+    margin-top: 15px !important;
+    justify-content: center;
+  }
+
+  .buttonGroupFollow2 {
+    margin-top: 15px !important;
+  }
+
+  .buttonGroup {
+    margin-top: 15px !important;
+    justify-content: center;
+  }
+  .buttonGroup2 {
+    margin-top: 15px !important;
+  }
+  .detailArticleContent {
+    padding: 1.5rem;
+  }
+  .authorDateName {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .buttonGroupFollow {
+    margin-top: 15px !important;
+  }
+  .buttonGroupFollow2 {
+    margin-top: 15px !important;
+  }
+  .buttonGroup {
+    margin-top: 15px !important;
+  }
+  .buttonGroup2 {
+    margin-top: 15px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 993px){
+    .authorDateName{
+        margin-left: 15px;
+    }
+    .buttonGroupFollow{
+        margin-top: 15px!important;
+    }
+
+  .buttonGroup {
+    margin-top: 15px !important;
+  }
+
+}

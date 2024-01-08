@@ -1,0 +1,19 @@
+body{
+    font-size: 1em!important;
+    
+}
+#root{
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+
+    .tagsComponent{
+        margin-top: 0px!important;
+        padding: 20px;
+    }
+    .popularTags{
+        margin-bottom: 1rem!important;
+    }
+
+}

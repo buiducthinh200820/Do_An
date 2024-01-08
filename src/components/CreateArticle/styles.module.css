@@ -1,0 +1,29 @@
+.createArticleContainer{
+    margin-bottom: 100px;
+}
+.formCreateArticle{
+    margin: auto;
+}
+.btnPublish{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.input{
+    margin-bottom: 20px!important;
+}
+.tagList{
+    display: inline-block;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #818a91;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 0.3rem 0.6rem;
+    white-space: nowrap;
+    margin-right: 4px;
+    margin-bottom: 0.5rem;
+    margin-top: 10px;
+}
+.iconRemoveTag :hover{
+    cursor: pointer;
+}

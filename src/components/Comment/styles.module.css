@@ -1,0 +1,33 @@
+.avatar{
+    max-height: 35px;
+    border-radius: 50%;
+}
+.footerComment{
+    font-size: 0.8em;
+}
+
+.userInfoComment{
+    color: #5CB85C;
+    text-decoration: none;
+}
+
+.userInfoComment :hover{
+    text-decoration: underline;
+}
+.userNameComment{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.dateComment{
+    margin-left: 5px;
+    color: #d2d2d2
+}
+
+@media (max-width: 480px){
+    .footerComment{
+        font-size: 0.8em;
+
+        display: inline-block;
+    }
+}
